@@ -102,7 +102,7 @@ if __name__ == "__main__":
     parser.add_argument('--dropout', type=float, default=0.5, help='initial dropout rate')
     parser.add_argument('--emb_dims', type=int, default=1024, metavar='N',help='Dimension of embeddings')
     parser.add_argument('--k', type=int, default=20, metavar='N',help='Num of nearest neighbors to use')
-    parser.add_argument('--model_path', type=str, default='model.t7', metavar='N',help='Pretrained model path')
+    parser.add_argument('--model_path', type=str, default='model_modelnet40.t7', metavar='N',help='Pretrained model path')
 
     parser.add_argument('--test_rot_perturbation', type=bool, default=True, help='Rotation augmentation around 3 axis.')
     parser.add_argument('--translation', type=bool, default=False, help='Translation augmentation.')
