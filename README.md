@@ -1,5 +1,5 @@
 # 
-This repository will contain the source code from the paper "A Robust and Reliable Point Clouds Recognition Network Under Rigid Transformation".
+This repository will contain the source code from the paper "A Robust and Reliable Point Cloud Recognition Network Under Rigid Transformation".
 
 The pretrained models on modelnet40 and ScanobjectNN are uploaded. 
 
